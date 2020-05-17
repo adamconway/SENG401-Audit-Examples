@@ -7,4 +7,7 @@ The base `Repository.js` file handles all logic related to axios and authenticat
 ```
 import Repository from "../repositories/RepositoryFactory";
 const UserRepository = Repository.get("user");
+
+
+let user = UserRepository.getUser(1);
 ```
